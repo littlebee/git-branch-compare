@@ -2,7 +2,7 @@
   "name": "git-branch-compare",
   "main": "./lib/git-branch-compare",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Compares two git branches and shows results in file tree and differences between files using split-diff",
   "keywords": [
   ],
   "activationCommands": {
@@ -14,5 +14,10 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-package-deps": "^4.3.1",
+    "disposable-event": "^1.0.3",
+    "marked": "^0.3.9",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
